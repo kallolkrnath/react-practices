@@ -15,6 +15,14 @@ import HandMove from "./practices/useEffectHook/HandMove"
 import MyEffectComponent from "./practices/useEffectHook/MyComponent";
 import MyEffectComponent2 from "./practices/useEffectHook/MyComponent2";
 
+import MyApp from "./practices/useContextHook/Contact";
+
+import CounterMemo from "./practices/useMemoHook/Counter";
+
+import MainPage from "./practices/useCallbackHook/MainPage";
+
+import CounterReducer from "./practices/useReducerHook/Counter";
+
 function App() {
 
   return (
@@ -53,6 +61,28 @@ function App() {
         <hr className="my-4" />
         <MyEffectComponent2 />
         <hr className="my-2" />
+
+         {/* --------UseContextHook------- */}
+        <hr className="my-2" />
+        <MyApp />
+
+        <hr className="my-2" />
+
+        {/* --------UseMemoHook------- */}
+        <hr className="my-2" />
+        <CounterMemo />
+        <hr className="my-2" />
+
+        {/* --------UseCallbackHook------- */}
+        <hr className="my-2" />
+        <MainPage />
+        <hr className="my-2" />
+
+        {/* --------UseReducerHook------- */}
+        <hr className="my-2" />
+        <CounterReducer />
+        <hr className="my-2" />
+
         </main>
     </>
   )
